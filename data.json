@@ -1,0 +1,1192 @@
+[
+   {
+      "place": "Wageningen",
+      "longitude": 5.66306,
+      "latitude": 51.96444,
+      "bookCount": 1,
+      "books": [
+         {
+            "place": "Wageningen",
+            "year": 2000,
+            "subject": "Haak, Johan"
+         }
+      ]
+   },
+   {
+      "place": "Alphen aan den Rijn",
+      "longitude": 4.65,
+      "latitude": 52.13333,
+      "bookCount": 1,
+      "books": [
+         {
+            "place": "Alphen aan den Rijn",
+            "year": 1976,
+            "subject": "Hollander, Arie Nicolaas Jan den (1906-1976)"
+         }
+      ]
+   },
+   {
+      "place": "Haarlem",
+      "longitude": 4.64056,
+      "latitude": 52.38028,
+      "bookCount": 5,
+      "books": [
+         {
+            "place": "Haarlem",
+            "year": 1995,
+            "subject": "vriendschap"
+         },
+         {
+            "place": "Haarlem",
+            "year": 1986,
+            "subject": "Puchinger, G"
+         },
+         {
+            "place": "Haarlem",
+            "year": 1995,
+            "subject": "eenzaamheid"
+         },
+         {
+            "place": "Haarlem",
+            "year": 2002,
+            "subject": "Noord-Holland"
+         },
+         {
+            "place": "Haarlem",
+            "year": 2002,
+            "subject": "Zenboeddhisme"
+         }
+      ]
+   },
+   {
+      "place": "Amsterdam",
+      "longitude": 4.9,
+      "latitude": 52.378,
+      "bookCount": 48,
+      "books": [
+         {
+            "place": "Amsterdam",
+            "year": 2004,
+            "subject": "Wereldoorlog I"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 1995,
+            "subject": "Monumenten; IJ-oevers (Amsterdam)"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 1995,
+            "subject": "Stichting van de Arbeid"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 1987,
+            "subject": "Cultuurfilosofie; Opstellen"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 1999,
+            "subject": "Diet Kloos-Barendrecht 1924-"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 1993,
+            "subject": "Keesing"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 2001,
+            "subject": "Middenstand"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 2001,
+            "subject": "Discriminatie"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 2005,
+            "subject": "Vrouwen"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 1999,
+            "subject": "Woningbouwprojecten"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 2005,
+            "subject": "Wereldbibliotheek"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 1985,
+            "subject": "Verzuiling"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 1970,
+            "subject": "Gogh, Vincent van"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 1997,
+            "subject": "Homoseksualiteit"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 2002,
+            "subject": "Popmuziek"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 2005,
+            "subject": "Wetenschappelijk onderwijs"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 1997,
+            "subject": "Ferdinand Domela Nieuwenhuis 1846-1919"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 2001,
+            "subject": "Vloeken"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 1990,
+            "subject": "zigeuners"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 2001,
+            "subject": "Nederlands Oost-Indië"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 1999,
+            "subject": "Allochtonen"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 1995,
+            "subject": "Jan Marius Romein 1893-1962"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 2004,
+            "subject": "Jodenvervolging"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 1995,
+            "subject": "Amsterdam"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 2001,
+            "subject": "Rechten van de mens"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 1989,
+            "subject": "Wilhelminagasthuis (Amsterdam)"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 2000,
+            "subject": "Biografieën"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 1990,
+            "subject": "Daum, P.A"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 2001,
+            "subject": "Alex d'Electrique (toneelgroep)"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 1987,
+            "subject": "Kabafes, K.P"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 1994,
+            "subject": "Biografieën"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 1994,
+            "subject": "Buitenlandse kinderen"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 1987,
+            "subject": "Mechanicus, Philip"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 1987,
+            "subject": "Nijhoff, M"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 1992,
+            "subject": "Grafmonumenten"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 2003,
+            "subject": "Vestdijk, S"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 1995,
+            "subject": "Duitse emigranten"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 1992,
+            "subject": "Modejournalistiek"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 1998,
+            "subject": "Halberstam, Adele 1871-1943"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 1989,
+            "subject": "Opstellen"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 1991,
+            "subject": "Vliegent Hart, 't (Oost-Indiëvaarder)"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 1997,
+            "subject": "Zeerecht"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 1992,
+            "subject": "Tlacayelel"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 1988,
+            "subject": "Democratie"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 1991,
+            "subject": "Feminisme"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 1999,
+            "subject": "Uganda"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 2001,
+            "subject": "Kohnstamm, Ph"
+         },
+         {
+            "place": "Amsterdam",
+            "year": 1990,
+            "subject": "Charrière, Isabelle de"
+         }
+      ]
+   },
+   {
+      "place": "Eindhoven",
+      "longitude": 5.48417,
+      "latitude": 51.43444,
+      "bookCount": 1,
+      "books": [
+         {
+            "place": "Eindhoven",
+            "year": 1993,
+            "subject": "Heiligen"
+         }
+      ]
+   },
+   {
+      "place": "Rijswijk",
+      "longitude": 4.31667,
+      "latitude": 52.03333,
+      "bookCount": 1,
+      "books": [
+         {
+            "place": "Rijswijk",
+            "year": 1991,
+            "subject": "Luchtmacht Stafschool (Rijswijk)"
+         }
+      ]
+   },
+   {
+      "place": "Arnhem",
+      "longitude": 5.91667,
+      "latitude": 51.98333,
+      "bookCount": 1,
+      "books": [
+         {
+            "place": "Arnhem",
+            "year": 1999,
+            "subject": "Zilversmeedkunst"
+         }
+      ]
+   },
+   {
+      "place": "Averbode",
+      "longitude": 4.944051,
+      "latitude": 51.043368,
+      "bookCount": 1,
+      "books": [
+         {
+            "place": "Averbode",
+            "year": 1994,
+            "subject": "Mystiek"
+         }
+      ]
+   },
+   {
+      "place": "Abcoude",
+      "longitude": 4.9703,
+      "latitude": 52.2719,
+      "bookCount": 1,
+      "books": [
+         {
+            "place": "Abcoude",
+            "year": 2002,
+            "subject": "Illegale buitenlanders"
+         }
+      ]
+   },
+   {
+      "place": "Baarn",
+      "longitude": 5.2861,
+      "latitude": 52.2125,
+      "bookCount": 6,
+      "books": [
+         {
+            "place": "Baarn",
+            "year": 1995,
+            "subject": "Dood"
+         },
+         {
+            "place": "Baarn",
+            "year": 1995,
+            "subject": "Geheugentraining"
+         },
+         {
+            "place": "Baarn",
+            "year": 1995,
+            "subject": "Geheugentraining"
+         },
+         {
+            "place": "Baarn",
+            "year": 1998,
+            "subject": "Angelus Silesius"
+         },
+         {
+            "place": "Baarn",
+            "year": 1987,
+            "subject": "Brieven"
+         },
+         {
+            "place": "Baarn",
+            "year": 1995,
+            "subject": "Geboortekaartjes"
+         }
+      ]
+   },
+   {
+      "place": "Den Haag",
+      "longitude": 4.3175,
+      "latitude": 52.08417,
+      "bookCount": 17,
+      "books": [
+         {
+            "place": "Den Haag",
+            "year": 1995,
+            "subject": "Taalgebruik"
+         },
+         {
+            "place": "Den Haag",
+            "year": 1997,
+            "subject": "Cornelis Anthony Jacobus van Dishoeck 1863-1931"
+         },
+         {
+            "place": "Den Haag",
+            "year": 1996,
+            "subject": "Besluitvorming"
+         },
+         {
+            "place": "Den Haag",
+            "year": 1999,
+            "subject": "Hoornik, Eduard"
+         },
+         {
+            "place": "Den Haag",
+            "year": 2000,
+            "subject": "Nassaukwartier ('s-Gravenhage)"
+         },
+         {
+            "place": "Den Haag",
+            "year": 2000,
+            "subject": "Hillegonda van Uildriks 1863-1921"
+         },
+         {
+            "place": "Den Haag",
+            "year": 2005,
+            "subject": "Meidagen (1940)"
+         },
+         {
+            "place": "Den Haag",
+            "year": 1991,
+            "subject": "Leesgewoonten"
+         },
+         {
+            "place": "Den Haag",
+            "year": 1997,
+            "subject": "Nederland"
+         },
+         {
+            "place": "Den Haag",
+            "year": 2001,
+            "subject": "18e eeuw"
+         },
+         {
+            "place": "Den Haag",
+            "year": 1997,
+            "subject": "Den Haag"
+         },
+         {
+            "place": "Den Haag",
+            "year": 1986,
+            "subject": "Werkloosheid"
+         },
+         {
+            "place": "Den Haag",
+            "year": 1988,
+            "subject": "Fabriekswoningen"
+         },
+         {
+            "place": "Den Haag",
+            "year": 1992,
+            "subject": "Greshoff"
+         },
+         {
+            "place": "Den Haag",
+            "year": 1995,
+            "subject": "Collaboratie"
+         },
+         {
+            "place": "Den Haag",
+            "year": 2004,
+            "subject": "Taalgebruik"
+         },
+         {
+            "place": "Den Haag",
+            "year": 1997,
+            "subject": "Feministen"
+         }
+      ]
+   },
+   {
+      "place": "Utrecht",
+      "longitude": 5.11556,
+      "latitude": 52.08889,
+      "bookCount": 10,
+      "books": [
+         {
+            "place": "Utrecht",
+            "year": 1994,
+            "subject": "Nederlandse taal"
+         },
+         {
+            "place": "Utrecht",
+            "year": 1997,
+            "subject": "Moesman, J.H"
+         },
+         {
+            "place": "Utrecht",
+            "year": 2002,
+            "subject": "Zelfverwerkelijking"
+         },
+         {
+            "place": "Utrecht",
+            "year": 1993,
+            "subject": "Vrouwen"
+         },
+         {
+            "place": "Utrecht",
+            "year": 1990,
+            "subject": "Castella scheerzeep"
+         },
+         {
+            "place": "Utrecht",
+            "year": 2003,
+            "subject": "Russische leenwoorden"
+         },
+         {
+            "place": "Utrecht",
+            "year": 2003,
+            "subject": "Toespraken"
+         },
+         {
+            "place": "Utrecht",
+            "year": 1998,
+            "subject": "Toespraken"
+         },
+         {
+            "place": "Utrecht",
+            "year": 2002,
+            "subject": "Nederlands Instituut voor Kerkmuziek"
+         },
+         {
+            "place": "Utrecht",
+            "year": 1994,
+            "subject": "Slavernij"
+         }
+      ]
+   },
+   {
+      "place": "Leuven",
+      "longitude": 4.7,
+      "latitude": 50.86667,
+      "bookCount": 4,
+      "books": [
+         {
+            "place": "Leuven",
+            "year": 1989,
+            "subject": "Vlaamse poëzie"
+         },
+         {
+            "place": "Leuven",
+            "year": 2002,
+            "subject": "Guldensporenslag"
+         },
+         {
+            "place": "Leuven",
+            "year": 2000,
+            "subject": "Straathandel"
+         },
+         {
+            "place": "Leuven",
+            "year": 1993,
+            "subject": "Poëzie ; opstellen"
+         }
+      ]
+   },
+   {
+      "place": "Heerhugowaard",
+      "longitude": 4.841,
+      "latitude": 52.668,
+      "bookCount": 1,
+      "books": [
+         {
+            "place": "Heerhugowaard",
+            "year": 2004,
+            "subject": "Biecht"
+         }
+      ]
+   },
+   {
+      "place": "Maastricht",
+      "longitude": 5.68333,
+      "latitude": 50.86667,
+      "bookCount": 1,
+      "books": [
+         {
+            "place": "Maastricht",
+            "year": 1992,
+            "subject": "Dijk, J.L.M. van"
+         }
+      ]
+   },
+   {
+      "place": "London",
+      "longitude": -0.1275,
+      "latitude": 51.50722,
+      "bookCount": 3,
+      "books": [
+         {
+            "place": "London",
+            "year": 1977,
+            "subject": "Fuller, John Frederick Charles"
+         },
+         {
+            "place": "London",
+            "year": 1994,
+            "subject": "Interieurkunst"
+         },
+         {
+            "place": "London",
+            "year": 1999,
+            "subject": "Monarchie"
+         }
+      ]
+   },
+   {
+      "place": "Weert",
+      "longitude": 5.709,
+      "latitude": 51.251,
+      "bookCount": 3,
+      "books": [
+         {
+            "place": "Weert",
+            "year": 1993,
+            "subject": "Toneelwereld"
+         },
+         {
+            "place": "Weert",
+            "year": 1988,
+            "subject": "Nederland"
+         },
+         {
+            "place": "Weert",
+            "year": 2001,
+            "subject": "Honden"
+         }
+      ]
+   },
+   {
+      "place": "Enschede",
+      "longitude": 6.89556,
+      "latitude": 52.22361,
+      "bookCount": 1,
+      "books": [
+         {
+            "place": "Enschede",
+            "year": 1998,
+            "subject": "Korenmolens"
+         }
+      ]
+   },
+   {
+      "place": "Rotterdam",
+      "longitude": 4.41667,
+      "latitude": 51.95,
+      "bookCount": 4,
+      "books": [
+         {
+            "place": "Rotterdam",
+            "year": 1998,
+            "subject": "Glaskunst"
+         },
+         {
+            "place": "Rotterdam",
+            "year": 2002,
+            "subject": "Grafische vormgeving"
+         },
+         {
+            "place": "Rotterdam",
+            "year": 1994,
+            "subject": "Economen"
+         },
+         {
+            "place": "Rotterdam",
+            "year": 1992,
+            "subject": "Prina, Stephen; Tentoonstellingscatalogi"
+         }
+      ]
+   },
+   {
+      "place": "Rennes",
+      "longitude": -1.68083,
+      "latitude": 48.11417,
+      "bookCount": 1,
+      "books": [
+         {
+            "place": "Rennes",
+            "year": 1998,
+            "subject": "Computerkunst"
+         }
+      ]
+   },
+   {
+      "place": "Delft",
+      "longitude":  4.35944,
+      "latitude": 52.01194,
+      "bookCount": 1,
+      "books": [
+         {
+            "place": "Delft",
+            "year": 1987,
+            "subject": "Ketel, Cornelis"
+         }
+      ]
+   },
+   {
+      "place": "Nederhorst den Berg",
+      "longitude": 5.0458,
+      "latitude": 52.2567,
+      "bookCount": 1,
+      "books": [
+         {
+            "place": "Nederhorst den Berg",
+            "year": 1990,
+            "subject": "Uitkeringsgerechtigden"
+         }
+      ]
+   },
+   {
+      "place": "Hilversum",
+      "longitude": 5.18,
+      "latitude": 52.23,
+      "bookCount": 8,
+      "books": [
+         {
+            "place": "Hilversum",
+            "year": 2005,
+            "subject": "Joodse oorlogspleegkinderen"
+         },
+         {
+            "place": "Hilversum",
+            "year": 2000,
+            "subject": "Jan Carel Josephus van Speyk 1802-1831"
+         },
+         {
+            "place": "Hilversum",
+            "year": 2000,
+            "subject": "Hendrikus Colijn 1869-1944"
+         },
+         {
+            "place": "Hilversum",
+            "year": 2002,
+            "subject": "18e eeuw"
+         },
+         {
+            "place": "Hilversum",
+            "year": 2001,
+            "subject": "19e eeuw"
+         },
+         {
+            "place": "Hilversum",
+            "year": 1990,
+            "subject": "Suriname"
+         },
+         {
+            "place": "Hilversum",
+            "year": 1990,
+            "subject": "Geloofsbeleving"
+         },
+         {
+            "place": "Hilversum",
+            "year": 2001,
+            "subject": "Dagboeken"
+         }
+      ]
+   },
+   {
+      "place": "Kampen",
+      "longitude": 5.91972,
+      "latitude": 52.555,
+      "bookCount": 5,
+      "books": [
+         {
+            "place": "Kampen",
+            "year": 1991,
+            "subject": "Industriepastoraat"
+         },
+         {
+            "place": "Kampen",
+            "year": 1995,
+            "subject": "Amerikaanse schrijvers"
+         },
+         {
+            "place": "Kampen",
+            "year": 1996,
+            "subject": "Jodendom"
+         },
+         {
+            "place": "Kampen",
+            "year": 1996,
+            "subject": "CDA"
+         },
+         {
+            "place": "Kampen",
+            "year": 1991,
+            "subject": "Kierkegaard, Soren"
+         }
+      ]
+   },
+   {
+      "place": "Vlissingen",
+      "longitude": 3.58333,
+      "latitude": 51.45,
+      "bookCount": 1,
+      "books": [
+         {
+            "place": "Vlissingen",
+            "year": 2000,
+            "subject": "Wandeltochten"
+         }
+      ]
+   },
+   {
+      "place": "Weesp",
+      "longitude": 5.0417,
+      "latitude": 52.3069,
+      "bookCount": 1,
+      "books": [
+         {
+            "place": "Weesp",
+            "year": 1984,
+            "subject": "Platbodemschepen"
+         }
+      ]
+   },
+   {
+      "place": "Bergen",
+      "longitude": 5.3258,
+      "latitude": 60.3943,
+      "bookCount": 1,
+      "books": [
+         {
+            "place": "Bergen",
+            "year": 1993,
+            "subject": "Nederlandse schrijvers"
+         }
+      ]
+   },
+   {
+      "place": "Cambridge",
+      "longitude": 0.1225,
+      "latitude": 52.20806,
+      "bookCount": 1,
+      "books": [
+         {
+            "place": "Cambridge",
+            "year": 1982,
+            "subject": "Berlioz, Harriet Smithson"
+         }
+      ]
+   },
+   {
+      "place": "Nijmegen",
+      "longitude": 5.85,
+      "latitude": 51.83333,
+      "bookCount": 2,
+      "books": [
+         {
+            "place": "Nijmegen",
+            "year": 2002,
+            "subject": "Feyenoord (voetbalclub)"
+         },
+         {
+            "place": "Nijmegen",
+            "year": 1995,
+            "subject": "Vlaamse Primitieven"
+         }
+      ]
+   },
+   {
+      "place": "Groningen",
+      "longitude": 6.5667,
+      "latitude": 53.2167,
+      "bookCount": 1,
+      "books": [
+         {
+            "place": "Groningen",
+            "year": 2000,
+            "subject": "Meertalige boeken"
+         }
+      ]
+   },
+   {
+      "place": "Waasmunster",
+      "longitude": 4.0773,
+      "latitude": 51.1188,
+      "bookCount": 1,
+      "books": [
+         {
+            "place": "Waasmunster",
+            "year": 2003,
+            "subject": "Kruistochten"
+         }
+      ]
+   },
+   {
+      "place": "Zwolle",
+      "longitude": 6.1,
+      "latitude": 52.51667,
+      "bookCount": 1,
+      "books": [
+         {
+            "place": "Zwolle",
+            "year": 1995,
+            "subject": "Regnault, Pierre Alexandre"
+         }
+      ]
+   },
+   {
+      "place": "Oldenzaal",
+      "longitude": 6.92917,
+      "latitude": 52.3125,
+      "bookCount": 1,
+      "books": [
+         {
+            "place": "Oldenzaal",
+            "year": 1995,
+            "subject": "Biografieën"
+         }
+      ]
+   },
+   {
+      "place": "Houten",
+      "longitude": 5.1728,
+      "latitude": 52.0261,
+      "bookCount": 1,
+      "books": [
+         {
+            "place": "Houten",
+            "year": 2000,
+            "subject": "Voetbal"
+         }
+      ]
+   },
+   {
+      "place": "Tielt",
+      "longitude": 3.3258,
+      "latitude": 50.9989,
+      "bookCount": 1,
+      "books": [
+         {
+            "place": "Tielt",
+            "year": 2003,
+            "subject": "Meditaties (R.K.)"
+         }
+      ]
+   },
+   {
+      "place": "Hasselt",
+      "longitude": 5.3385,
+      "latitude": 50.93048,
+      "bookCount": 1,
+      "books": [
+         {
+            "place": "Hasselt",
+            "year": 2004,
+            "subject": "Herfst"
+         }
+      ]
+   },
+   {
+      "place": "Leeuwarden",
+      "longitude": 5.78333,
+      "latitude": 53.2,
+      "bookCount": 1,
+      "books": [
+         {
+            "place": "Leeuwarden",
+            "year": 1999,
+            "subject": "Begraafplaatsen"
+         },
+         {
+            "place": "Leeuwarden",
+            "year": 1993,
+            "subject": "Geschiedenis"
+         }
+      ]
+   },
+   {
+      "place": "Assen",
+      "longitude": 6.55,
+      "latitude": 53,
+      "bookCount": 1,
+      "books": [
+         {
+            "place": "Assen",
+            "year": 2005,
+            "subject": "17e eeuw"
+         }
+      ]
+   },
+   {
+      "place": "Warmond",
+      "longitude": 4.5017,
+      "latitude": 52.1972,
+      "bookCount": 2,
+      "books": [
+         {
+            "place": "Warmond",
+            "year": 1991,
+            "subject": "Verzet"
+         },
+         {
+            "place": "Warmond",
+            "year": 1999,
+            "subject": "Verzet"
+         }
+      ]
+   },
+   {
+      "place": "Zutphen",
+      "longitude": 6.2,
+      "latitude": 52.1333,
+      "bookCount": 4,
+      "books": [
+         {
+            "place": "Zutphen",
+            "year": 2004,
+            "subject": "Antoinette Bourignon 1616-1680"
+         },
+         {
+            "place": "Zutphen",
+            "year": 2005,
+            "subject": "S.W.A. van Voerst van Lynden"
+         },
+         {
+            "place": "Zutphen",
+            "year": 1995,
+            "subject": "Literatuuronderwijs"
+         },
+         {
+            "place": "Zutphen",
+            "year": 1995,
+            "subject": "Literatuuronderwijs"
+         }
+      ]
+   },
+   {
+      "place": "Nijkerk",
+      "longitude": 5.48417,
+      "latitude": 52.22139,
+      "bookCount": 1,
+      "books": [
+         {
+            "place": "Nijkerk",
+            "year": 1995,
+            "subject": "Wilhelmus"
+         }
+      ]
+   },
+   {
+      "place": "Vught",
+      "longitude": 5.2936,
+      "latitude": 51.6558,
+      "bookCount": 1,
+      "books": [
+         {
+            "place": "Vught",
+            "year": 1991,
+            "subject": "Nederlandse dichters"
+         }
+      ]
+   },
+   {
+      "place": "Dordrecht",
+      "longitude": 4.67,
+      "latitude": 51.81,
+      "bookCount": 1,
+      "books": [
+         {
+            "place": "Dordrecht",
+            "year": 1999,
+            "subject": "Openbare Bibliotheek Dordrecht"
+         }
+      ]
+   },
+   {
+      "place": "Sliedrecht",
+      "longitude": 4.76667,
+      "latitude": 51.81667,
+      "bookCount": 1,
+      "books": [
+         {
+            "place": "Sliedrecht",
+            "year": 1998,
+            "subject": "Meertalige boeken"
+         }
+      ]
+   },
+   {
+      "place": "'s-Hertogenbosch",
+      "longitude": 5.3031,
+      "latitude": 51.6892,
+      "bookCount": 1,
+      "books": [
+         {
+            "place": "'s-Hertogenbosch",
+            "year": 1931,
+            "subject": "Metamorfoze Collectie Oude Kinderboeken"
+         }
+      ]
+   },
+   {
+      "place": "Tiel",
+      "longitude": 123.8383,
+      "latitude": 42.29714,
+      "bookCount": 1,
+      "books": [
+         {
+            "place": "Tiel",
+            "year": 1998,
+            "subject": "Spiritisme"
+         }
+      ]
+   },
+   {
+      "place": "Atlantic Highlands, N.J.",
+      "longitude": -74.0343,
+      "latitude": 40.4079,
+      "bookCount": 1,
+      "books": [
+         {
+            "place": "Atlantic Highlands, N.J.",
+            "year": 1985,
+            "subject": "Shakespeare, William"
+         }
+      ]
+   },
+   {
+      "place": "Breda",
+      "longitude": 4.78333,
+      "latitude": 51.58333,
+      "bookCount": 1,
+      "books": [
+         {
+            "place": "Breda",
+            "year": 2001,
+            "subject": "Katten"
+         }
+      ]
+   },
+   {
+      "place": "Voorburg",
+      "longitude": 4.35789,
+      "latitude": 52.074699,
+      "bookCount": 1,
+      "books": [
+         {
+            "place": "Voorburg",
+            "year": 1998,
+            "subject": "Pueblo (volk)"
+         }
+      ]
+   },
+   {
+      "place": "Tilburg",
+      "longitude": 5.07,
+      "latitude": 51.57,
+      "bookCount": 1,
+      "books": [
+         {
+            "place": "Tilburg",
+            "year": 1993,
+            "subject": "Boon, Louis Paul"
+         }
+      ]
+   }
+]

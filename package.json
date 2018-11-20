@@ -1,0 +1,21 @@
+{
+  "name": "oba",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jim van de Ven",
+  "license": "ISC",
+  "dependencies": {
+    "@mapbox/mapbox-sdk": "^0.4.1",
+    "axios": "^0.18.0",
+    "d3": "^5.7.0",
+    "dotenv": "^6.1.0",
+    "nodemon": "^1.18.5",
+    "oba-api": "github:rijkvanzanten/node-oba-api",
+    "xml-to-json-promise": "0.0.3"
+  }
+}
