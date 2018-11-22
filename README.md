@@ -1,4 +1,4 @@
-# frontend-data
+# Frontend-data
 ## [DEMO](https://vibrant-carson-b5e193.netlify.com/)  
 
 ## Introduction
@@ -11,12 +11,7 @@ In this project I am working together with the Openbare Bibliotheek Amsterdam(OB
 * [Cleaning the data](#Cleaning-the-data)
 * [Creating the graph](#Creating-the-graph)
 * [Updating the graph](#Updating-the-graph)
-* [Still to do](#still-to-do)
-* [Visualisation](#visualisation)
-* [Exploring the API](#exploring-the-api)
-* [Research question](#research-question)
-* [Early drawings of the visualisation](#early-drawings-of-the-visualisation)
-* [Process](#process)
+* [What I learned](#What-I-learned)
 * [Still to do](#still-to-do)  
 
 ## Installation
@@ -283,5 +278,6 @@ function updateGraph(data, value){
 }
 ```
 
-## Updating the graph
+## What I learned
 
+## Still to do
