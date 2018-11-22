@@ -82,8 +82,6 @@ function getSelectedYear(){
 
 function updateGraph(data, value){
 
-  let svg = d3.select("#chart>svg")
-
   let sortedData = data.sort(function (a, b) {
     return b.bookCount- a.bookCount;
   })
@@ -105,20 +103,16 @@ function updateGraph(data, value){
       .attr("transform", `translate(${margin.left}, 0)`)
       .call(d3.axisLeft(y).tickSizeOuter(0))
 
-  let text = svg.select(".text")
+  let text = d3.select(".text")
       .attr("fill", "white")
       .attr("text-anchor", "end")
       .style("font", "12px sans-serif")
       .selectAll("text")
       .data(data)
 
-  text.enter().append("text")
-      .attr("x", d => x(d.books[getSelectedYear()].length) - 4)
-      .attr("y", d => y(d.place) + y.bandwidth() / 2)
-      .text(d => d.books[getSelectedYear()].length)
-
-  text.exit()
-      .remove()
+  let graph = d3.select(".graph")
+      .selectAll("rect")
+      .data(data)
 
   text.transition()
       .duration(500)
@@ -126,42 +120,30 @@ function updateGraph(data, value){
       .attr("y", d => y(d.place) + y.bandwidth() / 2)
       .text(d => d.books[getSelectedYear()].length)
 
-  let graph = svg.select(".graph")
-      .selectAll("rect")
-      .data(data)
+  text.exit()
+      .remove()
 
   graph.selectAll("rect")
-      .transition()
-      .duration(500)
-      .attr("x", x(0))
-      .attr("rx", 4)
-      .attr("y", d => y(d.place))
       .attr("width", d => {
         if (value > d.books[getSelectedYear()].length){
           return x(d.books[getSelectedYear()].length) - x(0)
         }
       })
-      .attr("height", y.bandwidth())
-      .attr("fill", "green")
-
-  graph.exit()
-      .remove()
 
   graph.transition()
       .duration(500)
       .attr("width", d => x(d.books[getSelectedYear()].length) - x(0))
-      .attr("height", y.bandwidth())
-      .attr("fill", "green")
 
-  svg.select(".xAxis")
+  graph.exit()
+      .remove()
+
+  d3.select(".xAxis")
       .call(xAxis)
 }
 
 function rescale(data, value){
 
-  let svg = d3.select("#chart>svg")
-
-  let graph = svg.select(".graph")
+  let graph = d3.select(".graph")
 
   let sortedData = data.sort(function (a, b) {
     return b.bookCount- a.bookCount;
@@ -180,7 +162,7 @@ function rescale(data, value){
       .range([margin.top, height - margin.bottom])
       .padding(0.01)
 
-  let text = svg.select(".text")
+  let text = d3.select(".text")
       .attr("fill", "white")
       .attr("text-anchor", "end")
       .style("font", "12px sans-serif")
@@ -192,31 +174,25 @@ function rescale(data, value){
       .attr("y", d => y(d.place) + y.bandwidth() / 2)
       .text(d => d.books[getSelectedYear()].length)
 
-  text.exit()
-      .remove()
-
   text.transition()
       .duration(500)
       .attr("x", d => x(d.books[getSelectedYear()].length) - 4)
       .attr("y", d => y(d.place) + y.bandwidth() / 2)
       .text(d => d.books[getSelectedYear()].length)
 
+  text.exit()
+      .remove()
 
   graph.selectAll("rect")
       .transition()
       .duration(500)
-      .attr("x", x(0))
-      .attr("rx", 4)
-      .attr("y", d => y(d.place))
       .attr("width", d => {
         if (value > d.books[getSelectedYear()].length){
           return x(d.books[getSelectedYear()].length) - x(0)
         }
       })
-      .attr("height", y.bandwidth())
-      .attr("fill", "green")
 
-  svg.select(".xAxis")
+  d3.select(".xAxis")
       .call(xAxis)
 
 }
