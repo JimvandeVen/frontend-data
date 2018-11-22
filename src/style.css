@@ -1,14 +1,13 @@
-.rangeslider__ruler {
-  cursor: pointer;
-  font-size: .7em;
-  margin: 20px 3px 0 3px;
-  position: relative;
-  top: 100%;
-  text-align: justify;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.rangeslider__ruler:after {
-  content: "";
-  display: inline-block;
-  width: 100%;
+h1, p, select, option {
+  font-family: lato;
+}
+
+h1, p, form {
+  margin: 1rem 0 0 1rem;
 }

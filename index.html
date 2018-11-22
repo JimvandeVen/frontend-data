@@ -3,26 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/style.css">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="http://d3js.org/d3.v5.min.js"></script>
-  <!-- <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.js'></script>
-  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.css' rel='stylesheet' /> -->
-  <title>Document</title>
+  <title>frontend-data</title>
 </head>
 <body>
-  <input type="range" min="0" max="8" step="1">
+  <h1>Frontend Data</h1>
+  <p></p>
+  <form>
+    <label for="rescale">Filter op hoeveelheid</label>
+    <input type="range" id="rescale" min="0" max="1000" step="50">
+    <label for="yearsSelector">Kies een decenium</label>
+    <select name="yearsSelector" id="yearsSelector">
+      <option value="all">Alle jaren</option>
+      <option value="19601970">1960 tot 1970</option>
+      <option value="19701980">1970 tot 1980</option>
+      <option value="19801990">1980 tot 1990</option>
+      <option value="19902000">1990 tot 2000</option>
+      <option value="20002010">2000 tot 2010</option>
+      <option value="2010">2010 tot nu</option>
+    </select>
+  </form>
   <div id="chart"></div>
-  <!-- <div id='map' style='width: 800px; height: 600px;'></div>
-<script>
-mapboxgl.accessToken = 'pk.eyJ1IjoiamltdmFuZGV2ZW4iLCJhIjoiY2pvNzZmZmtzMG9jMTN2bzFmcG12MHlrZiJ9.WRiELqCFy3TaCQAWaXxSHA';
-var map = new mapboxgl.Map({
-    container: 'map',
-    style: 'mapbox://styles/mapbox/dark-v9',
-    center: [4.9036, 52.3680],
-    zoom: 7
-
-});
-</script> -->
+<script src="../src/javascript.js"></script>
 <script src="../src/d3.js"></script>
 </body>
 </html>

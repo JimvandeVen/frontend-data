@@ -21,7 +21,7 @@ fs.writeFile(
   './src/data.json',
   JSON.stringify(newData),
   'utf8',
-  err => console.error('write file kan niet', err)
+   err =>  {if (err){console.error('write file kan niet', err)}}
 )
 // console.log(filteredBooks)
 // let placeObjects = placeObjectMaker(books)
@@ -81,6 +81,7 @@ function placeObjectMaker(filteredBooks){
         place: item.key,
         bookCount: item.values.length,
         books: {
+          all: item.values,
           "1950": filteredBooks.filter(book => book.place == item.key && book.year < 1950),
           "19501960": filteredBooks.filter(book => book.place == item.key && 1960 > book.year && 1950 <= book.year),
           "19601970": filteredBooks.filter(book => book.place == item.key && 1970 > book.year && 1960 <= book.year),
