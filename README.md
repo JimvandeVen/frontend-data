@@ -4,7 +4,7 @@
 ![Screenshot](/images/screenshot.png) 
 
 ## Introduction
-In this project I am working together with the Openbare Bibliotheek Amsterdam(OBA). I am using data that was scraped by [maanlamp](https://github.com/maanlamp). In his connection with the dataset he was able to take aproximately 5000 books. 
+In this project I am working together with the Openbare Bibliotheek Amsterdam(OBA). I am using data that was scraped by [maanlamp](https://github.com/maanlamp). In his connection with the dataset he was able to take aproximately 5000 books. The visualisation I made represents the different books and the place where they were published 
 
 ## Table of content
 
@@ -287,4 +287,24 @@ function updateGraph(data, value){
 
 ## What I learned
 
+I learned alot about data cleaning with and without d3. Also d3.
+
+* `d3.entries(object)` Returns an array containing the property keys and values of the specified object. Each entry is an object with a key and value attribute.
+* `d3.map([object[, key]])` Creates a new nest operator.
+* `nest.key(key)` Registers a new key function. The key function will be invoked for each element in the input array and must return a string identifier to assign the element to its group.
+* `nest.entries(array)` Applies the nest operator to the specified array, returning an array of key-values entries.
+* `d3.select(selector)` Selects the first element that matches the specified selector string.
+* `selection.attr(name[, value])` Used to set attributes with the specified name on the selected element (bars, axis, etc.).
+* `selection.style(name[, value[, priority]])` Adds style to the selected element (width, color, font-size, etc.).
+* `selection.append(type)` Appends a new element of the given type.
+* `selection.remove()` Removes the selected elemnts.
+* `selection.data([data[, key]])` Joins the data with the selected elements.
+* `selection.enter()` Used to create elements for the data that has no elements.
+* `selection.exit()` Used to remove elements for which there is no data, or old data.
+
 ## Still to do
+
+- [ ] Plot my data on a map using mapbox
+- [ ] Run d3 on a server in my local host
+- [ ] Refractor my data a bit more
+- [ ] Use the d3 event handlers (`selection.on(typenames[, listener[, options]])`) instead if my own eventhandlers in plain js.
