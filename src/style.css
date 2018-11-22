@@ -2,9 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-h1, p, select, option {
   font-family: lato;
 }
 
@@ -12,17 +9,26 @@ h1, p, form {
   margin: 1rem 0 0 1rem;
 }
 
+h2 {
+  margin-bottom: 0.5em;
+}
+
 .wrapper {
   display: flex;
   justify-content: flex-end;
+}
+
+.explanationLabel {
+  text-align: center;
+  margin-bottom: 0.5em;
 }
 
 form {
   position: fixed;
   top: 26em;
   right: 10em;
-  -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  -webkit-animation: scale-in-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: scale-in-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   background-color: #F5F5F5;
   border-radius: 20px;
   padding: 4em;

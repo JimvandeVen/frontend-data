@@ -73,9 +73,20 @@ function createGraph(data){
       .attr("class", "xAxis")
       .call(xAxis)
 
+  svg.append("text")
+      .attr("x", d3.max(sortedData, d => d.books[getSelectedYear()].length))
+      .attr("y", 50 )
+      .style("text-anchor", "middle")
+      .text("Aantal boeken");
+
   svg.append("g")
       .attr("class", "yAxis")
       .call(yAxis)
+
+  svg.append("text")
+      .text("Steden")
+      .attr("transform", "translate(50,300) rotate(270)")
+
 }
 
 function getSelectedYear(){
