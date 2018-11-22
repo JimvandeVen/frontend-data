@@ -30,7 +30,7 @@ In this project I am working together with the Openbare Bibliotheek Amsterdam(OB
 
 ## Used data
 
-- Welke data wordt er in jouw :tropical_fish: gebruikt? (bijv. alle boeken waarvan stad van uitgave bekend is en genre EN een  lijst van duitse steden als externe bron)
+In this visualisation I use the data of 5000 books that are in the OBA. From this data I use the publication year and the city of publication.
 
 ## My concept and proces
 
