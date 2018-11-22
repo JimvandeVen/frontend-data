@@ -11,27 +11,30 @@
 <body>
   <h1>Waar komen de boeken bij de OBA vandaan?</h1>
   <p></p>
-  <form>
-    <div class="container">
-      <div class="rangeSlider">
-        <label for="rescale" id="rangeSliderBullet" class="rangeSliderLabel">0</label>
-        <input type="range" id="rescale" class="rescale" min="0" max="1000" step="50">
+  <div class="wrapper">
+    <form>
+      <div class="container">
+        <div class="rangeSlider">
+          <label for="rescale" id="rangeSliderBullet" class="rangeSliderLabel">0</label>
+          <input type="range" id="rescale" class="rescale" min="0" max="1000" step="50">
+        </div>
+        <div class="box-minmax">
+          <span>0</span><span>1000</span>
+        </div>
+        <div class="customDropdown">
+          <select name="yearsSelector" id="yearsSelector">
+            <option value="all">Alle jaren</option>
+            <option value="19601970">1960 tot 1970</option>
+            <option value="19701980">1970 tot 1980</option>
+            <option value="19801990">1980 tot 1990</option>
+            <option value="19902000">1990 tot 2000</option>
+            <option value="20002010">2000 tot 2010</option>
+            <option value="2010">2010 tot nu</option>
+          </select>
+        </div>
       </div>
-      <div class="box-minmax">
-        <span>0</span><span>1000</span>
-      </div>
-      <label for="yearsSelector">Kies een decenium</label>
-      <select name="yearsSelector" id="yearsSelector">
-        <option value="all">Alle jaren</option>
-        <option value="19601970">1960 tot 1970</option>
-        <option value="19701980">1970 tot 1980</option>
-        <option value="19801990">1980 tot 1990</option>
-        <option value="19902000">1990 tot 2000</option>
-        <option value="20002010">2000 tot 2010</option>
-        <option value="2010">2010 tot nu</option>
-      </select>
-    </div>
-  </form>
+    </form>
+  </div>
   <div id="chart"></div>
 <script src="../src/javascript.js"></script>
 <script src="../src/d3.js"></script>

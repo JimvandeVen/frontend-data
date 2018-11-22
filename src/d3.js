@@ -4,7 +4,7 @@ d3.json("../src/data.json").then(function(data){
 })
 
 let margin = {
-  top: 20,
+  top: 100,
   right: 20 ,
   bottom: 0,
   left: 150
@@ -50,6 +50,8 @@ function createGraph(data){
       .attr("x", x(0))
       .attr("rx", 4)
       .attr("y", d => y(d.place))
+      .transition()
+      .duration(1000)
       .attr("width", d => x(d.books[getSelectedYear()].length) - x(0))
       .attr("height", y.bandwidth())
       .attr("fill", "#008B8B")
