@@ -11,10 +11,21 @@ In this project I am working together with the Openbare Bibliotheek Amsterdam(OB
 * [Process](#process)
 * [Still to do](#still-to-do)
 
+## Installation
+
+1 Open terminal  
+2 cd to the map where you will save the project  
+3 Run `git clone https://github.com/JimvandeVen/frontend-data.git`  
+4 Run `cd /frontend-data`
+5 Run `npm install` Install dependencies  
+6 Run `npm run build` build and minify static files  
+7 Run `http-server &` runs server on `http://127.0.0.1:8080`  
+6 have fun :) 
+
 ## My concept
 In the drawing below you can see what my early concept is of my data visualisation. I have to first learn about d3 before I make too many assumptions in the design. Even so, this is roughly my vision in the design. I am still debating about foreign books.
 ![Early Drawing](/images/early_drawing.jpg)  
-After seeing the project of [Leon van Zijl](https://github.com/LeonvanZijl/fe3-assessment-3) I decided the best way forward was to get to know mapbox.
+After seeing the project of [Leon van Zijl](https://github.com/LeonvanZijl/fe3-assessment-3) I decided the best way forward was to get to know mapbox. I 
 
 ## Research question
 
