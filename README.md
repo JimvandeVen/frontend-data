@@ -4,13 +4,13 @@
 ![Screenshot](/images/screenshot.png) 
 
 ## Introduction
-In this project I am working together with the Openbare Bibliotheek Amsterdam(OBA). I am using data that was scraped by [maanlamp](https://github.com/maanlamp). In his connection with the dataset he was able to take aproximately 5000 books. The visualisation I made represents the different books and the place where they were published 
+In this project I am working together with the Openbare Bibliotheek Amsterdam(OBA). I am using data that was scraped by [maanlamp](https://github.com/maanlamp). In his connection with the dataset he was able to take approximately 5000 books. The visualisation I made represents the different books and the place where they were published 
 
 ## Table of content
 
 * [Installation](#Installation)
 * [Used data](#Used-data)
-* [My concept and proces](#My-concept-and-proces)
+* [My concept and process](#My-concept-and-process)
 * [Cleaning the data](#Cleaning-the-data)
 * [Creating the graph](#Creating-the-graph)
 * [Updating the graph](#Updating-the-graph)
@@ -32,11 +32,11 @@ In this project I am working together with the Openbare Bibliotheek Amsterdam(OB
 
 In this visualisation I use the data of 5000 books that are in the OBA. From this data I use the publication year and the city of publication.
 
-## My concept and proces
+## My concept and process
 
 In the drawing below you can see what my early concept is of my data visualisation. I have to first learn about d3 before I make too many assumptions in the design. Even so, this is roughly my vision in the design. I am still debating about foreign books.
 ![Early Drawing](/images/early_drawing.jpg)  
-After seeing the project of [Leon van Zijl](https://github.com/LeonvanZijl/fe3-assessment-3) I decided the best way forward was to get to know mapbox. I was, to my regret, sick for a couple of days. Because of this I had to rethink my planning for the few fays I had left. In the wireframe below you can see what my somewhat less ambitious plans. I will be showing the place of publication af all the books as well as filtered by decenium. I found out while working on the d3 aspects of the graph that the lower numbers were quite hard to read. So I decided to include a zoom functionality that lets you adjust the x-axis.
+After seeing the project of [Leon van Zijl](https://github.com/LeonvanZijl/fe3-assessment-3) I decided the best way forward was to get to know mapbox. I was, to my regret, sick for a couple of days. Because of this I had to rethink my planning for the few fays I had left. In the wireframe below you can see what my somewhat less ambitious plans. I will be showing the place of publication af all the books as well as filtered by decade. I found out while working on the d3 aspects of the graph that the lower numbers were quite hard to read. So I decided to include a zoom functionality that lets you adjust the x-axis.
 ![Wireframe](/images/schets.jpg) 
 
 ## Cleaning the data
@@ -220,7 +220,7 @@ function getSelectedYear(){
 ```
 ## Updating the graph
 
-In this function I update the graph. I call this function in an eventlistner that passes on the value of the event and the data needed. `updateGraph` works pretty much the same way as `createGraph`. It checks what the value of the selector and selects the data that coresponds with the selection. I have a similar function `rescale`. The only real difference is that it checks wether the value of the slider is lower than the width of a bar. If so it wil remove that bar from the graph to increase readability of the graph.
+In this function I update the graph. I call this function in an eventlistner that passes on the value of the event and the data needed. `updateGraph` works pretty much the same way as `createGraph`. It checks what the value of the selector and selects the data that corresponds with the selection. I have a similar function `rescale`. The only real difference is that it checks whether the value of the slider is lower than the width of a bar. If so it will remove that bar from the graph to increase readability of the graph.
 
 ``` js
 function updateGraph(data, value){
@@ -287,7 +287,7 @@ function updateGraph(data, value){
 
 ## What I learned
 
-I learned alot about data cleaning with and without d3. Also d3.
+I learned a lot about data cleaning with and without d3. Also d3.
 
 * `d3.entries(object)` Returns an array containing the property keys and values of the specified object. Each entry is an object with a key and value attribute.
 * `d3.map([object[, key]])` Creates a new nest operator.
@@ -297,7 +297,7 @@ I learned alot about data cleaning with and without d3. Also d3.
 * `selection.attr(name[, value])` Used to set attributes with the specified name on the selected element (bars, axis, etc.).
 * `selection.style(name[, value[, priority]])` Adds style to the selected element (width, color, font-size, etc.).
 * `selection.append(type)` Appends a new element of the given type.
-* `selection.remove()` Removes the selected elemnts.
+* `selection.remove()` Removes the selected elements.
 * `selection.data([data[, key]])` Joins the data with the selected elements.
 * `selection.enter()` Used to create elements for the data that has no elements.
 * `selection.exit()` Used to remove elements for which there is no data, or old data.
