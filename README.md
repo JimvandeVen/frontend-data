@@ -1,5 +1,7 @@
 # Frontend-data
-## [DEMO](https://vibrant-carson-b5e193.netlify.com/)  
+## [DEMO](https://vibrant-carson-b5e193.netlify.com/)
+
+![Screenshot](/images/screenshot.jpg) 
 
 ## Introduction
 In this project I am working together with the Openbare Bibliotheek Amsterdam(OBA). I am using data that was scraped by [maanlamp](https://github.com/maanlamp). In his connection with the dataset he was able to take aproximately 5000 books. 
@@ -7,6 +9,7 @@ In this project I am working together with the Openbare Bibliotheek Amsterdam(OB
 ## Table of content
 
 * [Installation](#Installation)
+* [Used data](#Used-data)
 * [My concept and proces](#My-concept-and-proces)
 * [Cleaning the data](#Cleaning-the-data)
 * [Creating the graph](#Creating-the-graph)
@@ -24,6 +27,10 @@ In this project I am working together with the Openbare Bibliotheek Amsterdam(OB
 6 Run `npm run build` build and minify static files  
 7 Run `http-server &` runs server on `http://127.0.0.1:8080`  
 6 have fun :) 
+
+## Used data
+
+- Welke data wordt er in jouw :tropical_fish: gebruikt? (bijv. alle boeken waarvan stad van uitgave bekend is en genre EN een  lijst van duitse steden als externe bron)
 
 ## My concept and proces
 
