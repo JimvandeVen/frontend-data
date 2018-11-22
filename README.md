@@ -6,11 +6,11 @@ In this project I am working together with the Openbare Bibliotheek Amsterdam(OB
 
 ## Table of content
 
-* [Visualisation](#visualisation)
-* [Exploring the API](#exploring-the-api)
-* [Research question](#research-question)
-* [Early drawings of the visualisation](#early-drawings-of-the-visualisation)
-* [Process](#process)
+* [Installation](#Installation)
+* [My concept and proces](#My-concept-and-proces)
+* [Cleaning the data](#Cleaning-the-data)
+* [Creating the graph](#Creating-the-graph)
+* [Updating the graph](#Updating-the-graph)
 * [Still to do](#still-to-do)
 * [Visualisation](#visualisation)
 * [Exploring the API](#exploring-the-api)
@@ -89,7 +89,7 @@ function makeBookObject(book) {
   }
 }
 ```
-In this function I use d3 to create the dataset needed for my graph. I engineered it in such a way that in my d3 functions I get the value.length of the different decades to create the width of my bars
+In this function I use d3 to create the dataset needed for my graph.  For each entry of `filteredBooks` I return an object with the place, the total books and the books per decade. I engineered it in such a way that in my d3 functions I get the `value.length` of the different decades to create the width of my bars.
 
 ``` js 
 function placeObjectMaker(filteredBooks){
@@ -116,5 +116,172 @@ function placeObjectMaker(filteredBooks){
 }
 ```
 
-## Early drawings of the visualisation
+## Creating the graph
+
+In this piece of code I create the graph with the cleaned data. Because I want the user to be able to filter the books in the different decades I use `getSelectedYear()` to get the value from the dropdown selector. I `append()` all the things I need for my graph When I call `createGraph()`. Included are the graph, the bars, the axis, the text inside the bars and the text next to the axis. Also I Sort the data so that the graph looks a bit nicer.
+
+``` js
+d3.json("../src/data.json").then(function(data){
+  window.data = data
+  createGraph(data)
+})
+
+let margin = {
+  top: 100,
+  right: 20 ,
+  bottom: 0,
+  left: 150
+}
+
+let width = 1800 - margin.left - margin.right
+let height = 3000 - margin.top - margin.bottom
+
+function createGraph(data){
+
+  let sortedData = data.sort(function (a, b) {
+  return b.bookCount- a.bookCount;
+  })
+
+  let svg = d3.select("#chart")
+    .append("svg")
+    .attr("width", `${width}`)
+    .attr("height", `${height}`)
+
+  let x = d3.scaleLinear()
+    .domain([0, d3.max(sortedData, d => d.books[getSelectedYear()].length)])
+    .range([margin.left, width - margin.right])
+
+  let y = d3.scaleBand()
+    	.domain(sortedData.map(d => d.place))
+      .range([margin.top, height - margin.bottom])
+      .padding(0.01)
+
+  let xAxis = g => g
+    .attr("transform", `translate(0,${margin.top})`)
+    .call(d3.axisTop(x).ticks(width/80))
+    .call(g => g.select(".domain").remove())
+
+  let yAxis = g => g
+    .attr("transform", `translate(${margin.left}, 0)`)
+    .call(d3.axisLeft(y).tickSizeOuter(0))
+
+  svg.append("g")
+    .attr("class", "graph")
+    .selectAll("rect")
+    .data(data)
+    .enter().append("rect")
+      .attr("x", x(0))
+      .attr("rx", 4)
+      .attr("y", d => y(d.place))
+      .transition()
+      .duration(1000)
+      .attr("width", d => x(d.books[getSelectedYear()].length) - x(0))
+      .attr("height", y.bandwidth())
+      .attr("fill", "#008B8B")
+
+  svg.append("g")
+    .attr("class", "text")
+    .attr("fill", "white")
+    .attr("text-anchor", "end")
+    .style("font", "12px sans-serif")
+    .selectAll("text")
+    .data(data)
+    .enter().append("text")
+      .attr("x", d => x(d.books[getSelectedYear()].length) - 4)
+      .attr("y", d => y(d.place) + y.bandwidth() / 2)
+      .attr("dy", "0.35em")
+      .text(d => d.books[getSelectedYear()].length)
+
+  svg.append("g")
+      .attr("class", "xAxis")
+      .call(xAxis)
+
+  svg.append("text")
+      .attr("x", d3.max(sortedData, d => d.books[getSelectedYear()].length))
+      .attr("y", 50 )
+      .style("text-anchor", "middle")
+      .text("Aantal boeken");
+
+  svg.append("g")
+      .attr("class", "yAxis")
+      .call(yAxis)
+
+  svg.append("text")
+      .text("Steden")
+      .attr("transform", "translate(50,300) rotate(270)")
+
+}
+
+function getSelectedYear(){
+  return document.querySelector("#yearsSelector").value
+}
+```
+## Updating the graph
+
+In this function I update the graph. I call this function in an eventlistner that passes on the value of the event and the data needed. `updateGraph` works pretty much the same way as `createGraph`. It checks what the value of the selector and selects the data that coresponds with the selection. I have a similar function `rescale`. The only real difference is that it checks wether the value of the slider is lower than the width of a bar. If so it wil remove that bar from the graph to increase readability of the graph.
+
+``` js
+function updateGraph(data, value){
+
+  let sortedData = data.sort(function (a, b) {
+    return b.bookCount- a.bookCount;
+  })
+
+  let x = d3.scaleLinear()
+    .domain([0, value])
+    .range([margin.left, width - margin.right])
+
+  let xAxis = g => g
+    .call(d3.axisTop(x).ticks(width/80))
+    .call(g => g.select(".domain").remove())
+
+  let y = d3.scaleBand()
+      .domain(sortedData.map(d => d.place))
+      .range([margin.top, height - margin.bottom])
+      .padding(0.01)
+
+  let yAxis = g => g
+      .attr("transform", `translate(${margin.left}, 0)`)
+      .call(d3.axisLeft(y).tickSizeOuter(0))
+
+  let text = d3.select(".text")
+      .attr("fill", "white")
+      .attr("text-anchor", "end")
+      .style("font", "12px sans-serif")
+      .selectAll("text")
+      .data(data)
+
+  let graph = d3.select(".graph")
+      .selectAll("rect")
+      .data(data)
+
+  text.transition()
+      .duration(500)
+      .attr("x", d => x(d.books[getSelectedYear()].length) - 4)
+      .attr("y", d => y(d.place) + y.bandwidth() / 2)
+      .text(d => d.books[getSelectedYear()].length)
+
+  text.exit()
+      .remove()
+
+  graph.selectAll("rect")
+      .attr("width", d => {
+        if (value > d.books[getSelectedYear()].length){
+          return x(d.books[getSelectedYear()].length) - x(0)
+        }
+      })
+
+  graph.transition()
+      .duration(500)
+      .attr("width", d => x(d.books[getSelectedYear()].length) - x(0))
+
+  graph.exit()
+      .remove()
+
+  d3.select(".xAxis")
+      .call(xAxis)
+}
+```
+
+## Updating the graph
 
