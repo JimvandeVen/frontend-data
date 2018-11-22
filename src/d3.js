@@ -52,7 +52,7 @@ function createGraph(data){
       .attr("y", d => y(d.place))
       .attr("width", d => x(d.books[getSelectedYear()].length) - x(0))
       .attr("height", y.bandwidth())
-      .attr("fill", "green")
+      .attr("fill", "#008B8B")
 
   svg.append("g")
     .attr("class", "text")

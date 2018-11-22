@@ -11,3 +11,70 @@ h1, p, select, option {
 h1, p, form {
   margin: 1rem 0 0 1rem;
 }
+
+/* https://codepen.io/mayuMPH/pen/ZjxGEY */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.rangeSliderLabel {
+    position: relative;
+    transform-origin: center center;
+    display: block;
+    width: 2em;
+    height: 2em;
+    background: transparent;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 0.4em;
+    box-sizing: border-box;
+    border: 2px solid #008B8B;
+    margin-top: 20px;
+    margin-left: -30px;
+    left: attr(value);
+    color: #008B8B;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 36px;
+}
+
+.rescale {
+  -webkit-appearance: none;
+  margin-top: 29px;
+  width: 600px;
+  height: 25px;
+  background: #B0C4DE;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.rescale:hover {
+  opacity: 1;
+}
+
+.rescale::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #008B8B;
+    cursor: pointer;
+}
+
+.box-minmax{
+  margin-top: 30px;
+  width: 608px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  span:first-child{
+    margin-left: 10px;
+  }
+}

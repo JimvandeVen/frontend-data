@@ -1,6 +1,3 @@
-// const mbxGeocoding = require('@mapbox/mapbox-sdk/services/geocoding')
-// const geocodingClient = mbxGeocoding({ accessToken: 'pk.eyJ1IjoiamltdmFuZGV2ZW4iLCJhIjoiY2pvNzZmZmtzMG9jMTN2bzFmcG12MHlrZiJ9.WRiELqCFy3TaCQAWaXxSHA' })
-
 const fs = require('fs')
 const d3 = require("d3")
 var rawData = require("./rawData.json")
@@ -23,15 +20,6 @@ fs.writeFile(
   'utf8',
    err =>  {if (err){console.error('write file kan niet', err)}}
 )
-// console.log(filteredBooks)
-// let placeObjects = placeObjectMaker(books)
-    // fs.writeFile(
-    //   './src/data.json',
-    //   JSON.stringify(placeObjects),
-    //   'utf8',
-    //   err => console.error('write file kan niet', err)
-    // )
-
 
 function makeBookObject(book) {
   let publisherPlace = typeof book.publication.place == undefined ? "Geen plaats van uitgave" : book.publication.place
@@ -69,7 +57,6 @@ function makeBookObject(book) {
   if (bookObject.place != undefined && bookObject.year != undefined && bookObject != undefined ){
     return bookObject
   }
-
 }
 
 function placeObjectMaker(filteredBooks){
@@ -94,30 +81,3 @@ function placeObjectMaker(filteredBooks){
       }
     })
 }
-
-// function coordinateGetter(data){
-//
-//   data.map(city =>{
-//     geocodingClient
-//         .forwardGeocode({
-//           query: city.place,
-//           limit: 1
-//         })
-//         .send()
-//         .then(response => {
-//             // match is a GeoJSON document with geocoding matches
-//           coordinates.push(response.body.features[0].center)
-//           console.log(coordinates)
-//         })
-//         .catch(err => {
-//           if (err.response) {
-//             console.log(err.response.status, err.response.statusText)
-//           } else {
-//             console.log(err)
-//           }
-//         })
-//     })
-//   // return coordinates
-// }
-
-// let coordinates = []
