@@ -1,7 +1,7 @@
 # Frontend-data
 ## [DEMO](https://vibrant-carson-b5e193.netlify.com/)
 
-![Screenshot](/images/screenshot.jpg) 
+![Screenshot](/images/screenshot.png) 
 
 ## Introduction
 In this project I am working together with the Openbare Bibliotheek Amsterdam(OBA). I am using data that was scraped by [maanlamp](https://github.com/maanlamp). In his connection with the dataset he was able to take aproximately 5000 books. 
